@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@color/white"
+    android:orientation="vertical" >
+
+
+	<ScrollView 
+	    	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:scrollbars="vertical" 
+			>
+		 
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+
+    
+		    <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:gravity="center_horizontal"
+		        android:textColor="@color/black"
+		        android:textSize="24sp"
+		        android:text="山西省忻州师范学院"  >
+		    </TextView>
+	    
+		    
+		    <TextView
+		        android:id="@+id/biaoti"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="20dp"
+		        android:textColor="@color/black"
+		        android:textSize="16sp"
+		        android:text="123123"  >
+		    </TextView>
+		    
+		    
+		</LinearLayout>
+
+		
+	</ScrollView>
+
+</LinearLayout>
+
+
+
+

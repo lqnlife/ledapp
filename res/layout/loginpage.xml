@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b201"
+    android:orientation="vertical" >
+
+ 
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/white" 
+        android:gravity="center_horizontal"
+        android:paddingRight="20dp"
+        android:layout_marginTop="80dp"
+        android:textSize="28sp" 
+        />
+
+    
+    <EditText
+        android:id="@+id/login_edit_account"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputAccHint"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="200dp"
+        android:saveEnabled="true" >
+    </EditText>
+
+    
+   	<EditText
+       android:id="@+id/login_edit_pwd"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content" 
+       android:inputType="textPassword"
+       android:hint="@string/strPswInputLabel"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:saveEnabled="true" >
+   	</EditText>
+            
+   	
+   	
+    <LinearLayout
+        android:id="@+id/Linearayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+         
+        <Button
+            android:id="@+id/login_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" 
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.4"
+            android:clickable="true"
+            android:text="注  册" >
+        </Button>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" 
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:layout_weight="0.4"
+            android:text="登  录" >
+        </Button>
+        
+    </LinearLayout>
+    
+</LinearLayout>
+
+

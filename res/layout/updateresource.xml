@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/updateresource_resourceName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1.0dip"
+            android:paddingLeft="80.0sp"
+            android:background="@drawable/my_edit_login"
+            android:saveEnabled="true" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/updateresource_resourceName"
+            android:layout_alignRight="@+id/TextView07"
+            android:layout_alignTop="@+id/updateresource_resourceName"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="会议室"
+            android:textColor="#FF3F3F3F"
+            android:textSize="16.0dip" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/updateresource_resourceDescribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/updateresource_resourceName"
+            android:layout_alignRight="@+id/updateresource_resourceName"
+            android:layout_below="@+id/updateresource_resourceName"
+            android:layout_marginRight="1.0dip"
+            android:background="@drawable/my_edit_login"
+            android:lines="4"
+            android:gravity="top"
+            android:paddingLeft="80.0sp"
+            android:saveEnabled="true" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/updateresource_resourceDescribe"
+            android:layout_alignRight="@+id/TextView08"
+            android:layout_alignTop="@+id/updateresource_resourceDescribe"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="内容"
+            android:textColor="#FF3F3F3F"
+            android:textSize="16.0dip" >
+        </TextView>
+
+         
+        <TextView
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/updateresource_resourceName"
+            android:layout_alignRight="@+id/updateresource_resourceName"
+            android:layout_below="@+id/TextView08"
+            android:layout_marginRight="1.0dip"
+            android:background="@drawable/my_edit_login"
+            android:paddingLeft="80.0sp" >
+        </TextView> 
+        
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/datePicker"
+            android:layout_alignRight="@+id/TextView13"
+            android:layout_alignTop="@+id/datePicker"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="预订日期"
+            android:textColor="#FF3F3F3F"
+            android:textSize="16.0dip" >
+        </TextView>
+        
+         
+        <TextView
+            android:id="@+id/timepicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/updateresource_resourceName"
+            android:layout_alignRight="@+id/updateresource_resourceName"
+            android:layout_below="@+id/TextView09"
+            android:layout_marginRight="1.0dip"
+            android:background="@drawable/my_edit_login"
+            android:paddingLeft="80.0sp" >
+        </TextView>
+        
+        
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/timepicker"
+            android:layout_alignRight="@+id/TextView09"
+            android:layout_alignTop="@+id/timepicker"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="预订时间"
+            android:textColor="#FF3F3F3F"
+            android:textSize="16.0dip" >
+        </TextView>
+    
+         
+         
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Linearayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom1" >
+
+        <Button
+            android:id="@+id/updaterespirce_btn"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/title_button_select"
+            android:clickable="true"
+            android:text="确定" >
+        </Button>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/userinfo_edit_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1.0dip"
+            android:background="@drawable/my_edit_login"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:paddingLeft="45.0sp"
+            android:saveEnabled="true" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/userinfo_edit_pwd"
+            android:layout_alignRight="@+id/TextView02"
+            android:layout_alignTop="@+id/userinfo_edit_pwd"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="@string/strPswInputLabel"
+            android:textColor="#FF3F3F3F"
+            android:textSize="16.0dip" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/userinfo_edit_pwd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/userinfo_edit_pwd"
+            android:layout_alignRight="@+id/userinfo_edit_pwd"
+            android:layout_below="@+id/userinfo_edit_pwd"
+            android:layout_marginRight="1.0dip"
+            android:background="@drawable/my_edit_login"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:paddingLeft="80.0sp"
+            android:saveEnabled="true" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/userinfo_edit_pwd2"
+            android:layout_alignRight="@+id/TextView03"
+            android:layout_alignTop="@+id/userinfo_edit_pwd2"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="新密码"
+            android:textColor="#FF3F3F3F"
+            android:textSize="16.0dip" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/userinfo_edit_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/userinfo_edit_pwd"
+            android:layout_alignRight="@+id/userinfo_edit_pwd"
+            android:layout_below="@+id/userinfo_edit_pwd2"
+            android:layout_marginRight="1.0dip"
+            android:background="@drawable/my_edit_login"
+            android:maxLength="16"
+            android:paddingLeft="45.0sp"
+            android:saveEnabled="true" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/userinfo_edit_userName"
+            android:layout_alignRight="@+id/TextView04"
+            android:layout_alignTop="@+id/userinfo_edit_userName"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="昵称"
+            android:textColor="#FF3F3F3F"
+            android:textSize="16.0dip" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/userinfo_edit_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/userinfo_edit_pwd"
+            android:layout_alignRight="@+id/userinfo_edit_pwd"
+            android:layout_below="@+id/userinfo_edit_userName"
+            android:layout_marginRight="1.0dip"
+            android:background="@drawable/my_edit_login"
+            android:maxLength="16"
+            android:paddingLeft="80.0sp"
+            android:saveEnabled="true" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/userinfo_edit_phone"
+            android:layout_alignRight="@+id/TextView05"
+            android:layout_alignTop="@+id/userinfo_edit_phone"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="联系电话"
+            android:textColor="#FF3F3F3F"
+            android:textSize="16.0dip" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/userinfo_edit_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/userinfo_edit_pwd"
+            android:layout_alignRight="@+id/userinfo_edit_pwd"
+            android:layout_below="@+id/userinfo_edit_phone"
+            android:layout_marginRight="1.0dip"
+            android:background="@drawable/my_edit_login"
+            android:paddingLeft="80.0sp"
+            android:saveEnabled="true" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/userinfo_edit_address"
+            android:layout_alignRight="@+id/TextView06"
+            android:layout_alignTop="@+id/userinfo_edit_address"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="联系地址"
+            android:textColor="#FF3F3F3F"
+            android:textSize="16.0dip" >
+        </TextView>
+
+       
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Linearayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom1" >
+
+        <Button
+            android:id="@+id/userinfo_btn"
+            android:layout_width="90dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/title_button_select"
+            android:clickable="true" 
+            android:text="确定">
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout><!-- </ScrollView> -->
